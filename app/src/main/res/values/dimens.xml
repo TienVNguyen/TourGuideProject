@@ -1,0 +1,18 @@
+<!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="spacing">10dp</dimen>
+    <dimen name="layout_height_zero_pixel">0px</dimen>
+    <dimen name="column_width_ninety_pixel">90dp</dimen>
+    <dimen name="main_activity_txtDescription">16sp</dimen>
+    <dimen name="main_activity_text_view">16sp</dimen>
+    <dimen name="text_margin">16sp</dimen>
+</resources>

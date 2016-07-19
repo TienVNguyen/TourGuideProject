@@ -1,0 +1,16 @@
+<!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <string name="app_name">Viet Tour</string>
+    <string name="main_txtDescription">Please select the city?</string>
+    <string name="main_txtHanoi">Ha Noi</string>
+    <string name="main_txtHue">Hue</string>
+    <string name="main_txtDanang">Da Nang</string>
+    <string name="main_txtHochiminh">Ho Chi Minh</string>
+    <string name="image_description">Image Description</string>
+</resources>

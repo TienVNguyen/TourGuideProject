@@ -1,0 +1,151 @@
+<!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Layout activity_main -->
+    <style name="MainActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingRight">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <!-- TextView activity_main\txtDescription -->
+    <style name="MainActivityTxtDescription">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/main_txtDescription</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textSize">@dimen/main_activity_txtDescription</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- TextView activity_main\txtHanoi -->
+    <style name="MainActivityTxtHanoi">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/main_txtHanoi</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textSize">@dimen/main_activity_text_view</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- TextView activity_main\txtHue -->
+    <style name="MainActivityTxtHue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/main_txtHue</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textSize">@dimen/main_activity_text_view</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- TextView activity_main\txtDanang -->
+    <style name="MainActivityTxtDanang">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/main_txtDanang</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textSize">@dimen/main_activity_text_view</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- TextView activity_main\txtHochiminh -->
+    <style name="MainActivityTxtHochiminh">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/main_txtHochiminh</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textSize">@dimen/main_activity_text_view</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Layout activity_city -->
+    <style name="CityActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- TabLayout activity_city\tlCity-->
+    <style name="CityActivityTlCities" parent="Base.Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- ViewPager activity_city\vpCity-->
+    <style name="CityActivityVpCity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_height_zero_pixel</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <!-- Fragment fragment_hanoi -->
+    <style name="FragmentHanoi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:columnWidth">@dimen/column_width_ninety_pixel</item>
+        <item name="android:numColumns">auto_fit</item>
+        <item name="android:verticalSpacing">@dimen/spacing</item>
+        <item name="android:horizontalSpacing">@dimen/spacing</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <!-- Fragment fragment_hue -->
+    <style name="FragmentHue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/activity_vertical_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Fragment fragment_danang -->
+    <style name="FragmentDanang">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/activity_vertical_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Fragment fragment_hochiminh -->
+    <style name="FragmentHochiminh">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <!-- TextView basic -->
+    <style name="ImageViewBasic">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- TextView basic -->
+    <style name="TextViewBasic">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/activity_vertical_margin</item>
+    </style>
+</resources>
