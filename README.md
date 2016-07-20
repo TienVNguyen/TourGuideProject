@@ -6,7 +6,7 @@ Time spent: 16 hours implementation (included searching) in total
  - 07/19: 8 hours
  - 07/20: 4 hours
 
-Implement link: https://github.com/TienVNguyen/TourGuide
+Implement link: https://github.com/TienVNguyen/TourGuideProject
 
  - Layout:
  * [x] Overall Layout : App contains at least 4 lists of relevant attractions for a location
